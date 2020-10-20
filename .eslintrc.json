@@ -21,11 +21,10 @@
     "react",
     "@typescript-eslint",
     "prettier",
-    "import-helpers",
     "react-hooks"
   ],
   "rules": {
-    "indent": "off",
+    "indent": "warn",
     "space-before-function-paren": "off",
     "no-extra-semi": "off",
     "semi": ["error", "always"],
@@ -45,7 +44,7 @@
     "react/display-name": "off",
     "no-use-before-define": [
       "warn",
-      { "functions": false, "classes": true, "variables": true }
+      { "functions": false, "classes": false, "variables": true }
     ],
     "no-unused-expressions": "off",
     "@typescript-eslint/no-unused-expressions": [
