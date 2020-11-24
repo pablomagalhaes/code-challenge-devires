@@ -8,7 +8,7 @@ export default createGlobalStyle`
     outline: 0;
   }
   body {
-    background: #F2f2f2;
+    background: #D3D3D3;
     min-height: 100vh;
     padding:16px;
     color: #FFF;
@@ -37,7 +37,7 @@ export default createGlobalStyle`
 
   h3{
     letter-spacing: 0.075em;
-    color: #97b4ff;
+    color: #000000;
     opacity: 0.8;
   }
 
