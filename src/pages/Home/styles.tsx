@@ -13,4 +13,11 @@ export const Container = styled.div`
     margin-top: 50px;
     font-size: 16px;
   }
+
+  h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #353535;
+  }
   `;

@@ -9,7 +9,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   errorMessage?: string;
 }
 
-const Input: React.FC<InputProps> = ({
+const TextField: React.FC<InputProps> = ({
   icon: Icon,
   name,
   defaultValue,
@@ -48,4 +48,4 @@ const Input: React.FC<InputProps> = ({
   );
 };
 
-export default Input;
+export default TextField;

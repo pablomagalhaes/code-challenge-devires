@@ -19,14 +19,14 @@ export const InputWrapper = styled.div<InputWrapperProps>`
   ${(props) =>
     props.isFocused &&
     css`
-      color: #ff9000;
-      border: 2px solid #ff9000;
+      color: #000;
+      border: 2px solid #000;
     `}
 
   ${(props) =>
     props.isFilled &&
     css`
-      color: #ff9000;
+      color: #000;
     `}
 
   & + div {
