@@ -26,7 +26,11 @@ const Todo: React.FC<IProps> = ({ todo }) => {
         <h3>{todo.title}</h3>
         <p>{todo.description}</p>
       </div>
-      <TiDelete size={30} onClick={() => handleDeleteTodo(todo.id)} className="RemoveIcon" />
+      <TiDelete
+        size={30}
+        onClick={() => handleDeleteTodo(todo.id)}
+        className="RemoveIcon"
+      />
     </TodoContainer>
   );
 };

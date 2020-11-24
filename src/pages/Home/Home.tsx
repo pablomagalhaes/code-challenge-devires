@@ -1,4 +1,4 @@
-import React, {useState, SyntheticEvent} from 'react';
+import React, { useState, SyntheticEvent } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { addTodo } from 'store/ducks/todo.duck';
@@ -9,24 +9,21 @@ import List from 'components/List/List';
 import TextField from 'components/TextField';
 import Button from 'components/Button';
 
-
 const Home: React.FC = () => {
-
   const dispatch = useDispatch();
 
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
 
-
   const HandleSubmit = (event: SyntheticEvent) => {
     event.preventDefault();
 
-    if(title !== '' && description !== '') {
+    if (title !== '' && description !== '') {
       dispatch(addTodo(title, description));
       setTitle('');
       setDescription('');
     }
-  }
+  };
 
   return (
     <Container>
@@ -51,15 +48,10 @@ const Home: React.FC = () => {
           onChange={(event) => setDescription(event.target.value)}
           placeholder="Describe your task"
         />
-        <Button type="submit">
-          CREATE TASK
-        </Button>
+        <Button type="submit">CREATE TASK</Button>
       </form>
-
     </Container>
   );
-
-}
-
+};
 
 export default Home;
