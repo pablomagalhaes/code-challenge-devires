@@ -37,6 +37,7 @@
     "axios": "^0.20.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-icons": "^3.11.0",
     "react-redux": "^7.2.1",
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2"
@@ -58,7 +59,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "json-server": "^0.16.2",
     "prettier": "2.1.2",
-    "styled-components": "^5.2.0",
+    "styled-components": "^5.2.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.3.0"
   }
